@@ -1,0 +1,19 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: vazir;
+    src: url('../fonts/Vazir-Regular.ttf');
+}
+
+
+@import "tailwindcss";
+
+
+@theme {
+    --font-poppins: "poppins";
+    --font-vazir: "vazir";
+
+
+}
