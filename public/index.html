@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -5,12 +6,73 @@
   <link href="../src/output.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="/public/style.css">
-  <title>.............</title>
+  <link rel="stylesheet" href="/FontAwsem/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Serendale-ai</title>
 </head>
-<body>
+<body class="bg-black">
   
-  <h1 class="text-3xl bg-red-900 font-bold text-yellow-500">Hello World!</h1>
-    
-    <script src="app.js"></script>
+  <!-- Header Start -->
+   <header class="bg-black w-full h-20 flex justify-between items-center px-5 lg:justify-between xl:justify-evenly">
+
+    <i class="fa fa-bars fa-solid text-white md:text-2xl" id="BurgerMenu"></i>
+
+      <div class="LogoType md:relative md:right-60 lg:right-0 xl:absolute xl:left-5 2xl:left-16">
+
+        <p data-layer="Serendale" class="Serendale justify-start text-white text-2xl font-medium md:text-5xl lg:text-2xl">Serendale</p>
+
+      </div>
+
+      <!-- Navigation Start -->
+      <div class="Navbar absolute top-1 left-0 w-full h-56 hidden justify-center items-center bg-black shadow-xs shadow-white/50 lg:flex lg:shadow-none lg:w-[35rem] lg:h-20 lg:left-[50%]" id="Menu">
+
+        <i class="fas fa-solid fa-close text-white relative bottom-24 right-28 md:right-72 md:bottom-20 md:text-2xl" id="CloseMenu"></i>
+
+        <nav class="Navigation">
+
+          <ul class="NavItemsContainer flex flex-col lg:flex-row justify-center items-center w-full h-40 gap-4 lg:gap-5">
+
+            <a href="#" class="justify-start text-white text-lg font-normal hover:border-b hover:border-white">
+              <li>Smart Contracts</li>
+            </a>
+
+            <a href="#" class="justify-start text-white text-lg font-normal hover:border-b hover:border-white">
+              <li>Services</li>
+            </a>
+
+            <a href="#" class="justify-start text-white text-lg font-normal hover:border-b hover:border-white">
+              <li>Solutions</li>
+            </a>
+
+            <a href="#" class="justify-start text-white text-lg font-normal hover:border-b hover:border-white">
+              <li>Roadmap</li>
+            </a>
+
+            <a href="#" class="justify-start text-white text-lg font-normal hover:border-b hover:border-white">
+              <li>Whitepaper</li>
+            </a>
+
+          </ul>
+
+        </nav>
+
+      </div>
+      <!-- Navigation Ebd -->
+
+      <!-- Social media Start -->
+       <div class="Social hidden lg:flex justify-center items-center gap-2 xl:relative xl:left-[35rem] 2xl:left-[50rem]">
+        
+        <img src="/images/Github.svg" alt="Github" class="hover:scale-150 cursor-pointer transition-all duration-300">
+        <img src="/images/Discord.svg" alt="Discord" class="hover:scale-150 cursor-pointer transition-all duration-300">
+        <img src="/images/MdiReddit.svg" alt="MdiReddit" class="hover:scale-150 cursor-pointer transition-all duration-300">
+        <img src="/images/Twitter.svg" alt="Twitter" class="hover:scale-150 cursor-pointer transition-all duration-300">
+      
+      </div>
+      <!-- Social media End -->
+
+   </header>
+  <!-- Header End -->
+  
+  <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+@media (width >= 1024px) {
+  #BurgerMenu {
+    display: none;
+  }
+
+  #CloseMenu {
+    display: none;
+  }
+
+  .Navbar {
+    transform: translate(-50%, 0);
+  }
+}
